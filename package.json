@@ -6,7 +6,8 @@
   "scripts": {
     "demo": "tsx --env-file=.env demo.ts",
     "all": "tsx --env-file=.env all-questions.ts",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "scenario": "tsx --env-file=.env"
   },
   "engines": {
     "node": ">=22"
